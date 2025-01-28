@@ -1,0 +1,40 @@
+# Git Ignore for Go Projects
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (vendor-specific)
+/vendor/
+
+# Go workspace file
+*.code-workspace
+
+# Logs
+*.log
+
+# IDE or Editor specific files
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Config/cache files
+.env
+*.env.*
+
+# Modules and dependencies
+go.sum
+go.mod
